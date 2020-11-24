@@ -5,6 +5,7 @@
 
 Участники: 
  https://vk.com/i_love_you_baby_and_you
+ 
  https://vk.com/ne_postironia
 
 Цели: 

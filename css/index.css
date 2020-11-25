@@ -1,0 +1,164 @@
+body{
+  background:#c0c0c0; /* Меняется фон экрана, выбирается здесь */
+}
+    /* это вверх короче  */
+  body{
+    margin: 0 auto;
+    max-width: 900px
+  }
+a{
+  color: white;
+}
+/*Это ебучий вверх */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { background: #1abc9c; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+
+header {
+    text-align: justify;
+    height: 8em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 90%;
+}
+
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+header > div {
+    height: 100%;
+}
+
+header > div::before {
+    content: '';
+    height: 90%;
+}
+
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+}
+
+header nav a:last-child {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 720px){
+
+    header {
+        height: auto;
+    }
+
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/*конец вверха */
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; /* Меняется ширина страницы */
+  margin: 0 auto;
+  background:#f2e8c9; /* Меняется задний фон страницы */
+}
+
+/* Шапка сайта */
+
+#header{
+
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  height: 130px; /* Высота шапки */
+  background-color: #ffffff; /* Фон шапки */
+   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+  border-radius: 5px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+img{ /* Фоновая картинка в шапке */
+float: left; /* Разрешаем наплывание других элементов на картинку */
+  margin: -40px 0 0 0;
+} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:0 0 10px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#464451; /* Цвет заголовка */
+}
+.nomer{ /*Подзаголовок (номер телефона)*/
+  position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
+  top:5px; /* Двигается вверх-вниз */
+  left:680px; /* Двигается вправо-влево */
+  font-size: 25px; /* Размер букв подзаголовка */
+  font-style:italic; /* Курсив */
+  font-weight:bold; /* Жирный */
+  color:#464451; /* Цвет букв подзаголовка */
+}
+#sidebar{ /* Блок сайдбара */
+  background-color: #ffffff; /* Фон блока */
+  width: 337px;
+/* Ширина блока */
+  padding: 60px; /* Отступ текста от краёв */
+  float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+  border-radius: 5px; /* Закругляем углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: 10px; /* Отступ блока статьи от блока подвала */
+  width: 300px; /* Ширина статьи */
+  padding:70px; /* Отступ текста от краёв блока */
+  background: #ffffff; /* Фон статьи */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ /* Блок подвала */
+  height:80px; /* Высота блока подвала */
+  width: 439px;/*тут ширина подвала*/
+  background-color: #ffffff; /* Фон блока подвала */
+  margin-bottom: 10px; /* Отступ снизу */
+  border-radius: 5px; /* Закруглённые углы */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+}
+.{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+  clear: both;
+}
+
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}

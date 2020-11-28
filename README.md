@@ -27,6 +27,13 @@
  7. Поставить на хостинг
 
  8. Припарковать домен
+ 
+ 9. Сделать темную версию сайта
 
+# Версии сайта
+
+0.1 ![01](https://github.com/Vlad2030/team/blob/main/v01.png)
+
+0.2 ![02](https://github.com/Vlad2030/team/blob/main/v02.png)
 
 ![Макет](https://github.com/Vlad2030/team/blob/main/Макет.png)

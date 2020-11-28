@@ -1,5 +1,5 @@
 body{
-  background:#c0c0c0; /* Меняется фон экрана, выбирается здесь */
+  background:#c0c0c0 ; /* Меняется фон экрана, выбирается здесь */
 }
     /* это вверх короче  */
   body{
@@ -7,18 +7,18 @@ body{
     max-width: 900px
   }
 a{
-  color: white;
+  color: black;
 }
 /*Это ебучий вверх */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
 * { padding: 0; margin: 0; }
-body { background: #1abc9c; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+body { background: #2c3e50; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
 
 header {
     text-align: justify;
     height: 8em;
     padding: 2em 5%;
-    background: #2c3e50;
+    background: #eeeeee;
     color: #fff;
 }
 
@@ -77,11 +77,19 @@ header nav a:last-child {
 
 }
 
+/* logo style нихуя не работает, чет путаю
+
+#logo {
+  align: left; 
+  width: 400;
+  height: 200;
+} */ 
+
 /*конец вверха */
 #wrapper{ /* Оболочка страницы сайта */
   width: 900px; /* Меняется ширина страницы */
   margin: 0 auto;
-  background:#f2e8c9; /* Меняется задний фон страницы */
+  background:#1abc9c; /* Меняется задний фон страницы */
 }
 
 /* Шапка сайта */
@@ -114,7 +122,7 @@ h1{ /* Заголовок сайта */
 }
 #sidebar{ /* Блок сайдбара */
   background-color: #ffffff; /* Фон блока */
-  width: 267px;
+  width: 337px;
 /* Ширина блока */
   padding: 60px; /* Отступ текста от краёв */
   float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
@@ -130,7 +138,7 @@ h1{ /* Заголовок сайта */
 
 #content{ /* Блок контента */
   margin-bottom: 10px; /* Отступ блока статьи от блока подвала */
-  width: 370px; /* Ширина статьи */
+  width: 300px; /* Ширина статьи */
   padding:70px; /* Отступ текста от краёв блока */
   background: #ffffff; /* Фон статьи */
   border-radius: 5px;
@@ -148,7 +156,7 @@ h1{ /* Заголовок сайта */
 
 #footer{ /* Блок подвала */
   height:80px; /* Высота блока подвала */
-  width: 512px;/*тут ширина подвала*/
+  width: 439px;/*тут ширина подвала*/
   background-color: #ffffff; /* Фон блока подвала */
   margin-bottom: 10px; /* Отступ снизу */
   border-radius: 5px; /* Закруглённые углы */

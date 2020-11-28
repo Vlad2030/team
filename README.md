@@ -31,8 +31,8 @@
 
 # Версии сайта
 
-0.1 ![01](https://github.com/Vlad2030/team/v01.png)
+0.1 ![01](https://github.com/Vlad2030/team/blob/main/v01.png)
 
-0.2 ![02](https://github.com/Vlad2030/team/v02.png)
+0.2 ![02](https://github.com/Vlad2030/team/blob/main/v02.png)
 
-![Макет](https://github.com/Vlad2030/team/Макет.png)
+![Макет](https://github.com/Vlad2030/team/blob/main/Макет.png)

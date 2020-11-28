@@ -144,6 +144,14 @@ h1{ /* Заголовок сайта */
   border-radius: 5px;
   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
 }
+#content2{ /* Блок контента2 */
+  margin-bottom: 10px; /* Отступ блока статьи от блока подвала */
+  width: 760px; /* Ширина статьи */
+  padding:70px; /* Отступ текста от краёв блока */
+  background: #ffffff; /* Фон статьи */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
 .left{ /* Картинка в тексте слева */
   float: left;
   margin: 30px 7px 7px 7px;
@@ -156,7 +164,7 @@ h1{ /* Заголовок сайта */
 
 #footer{ /* Блок подвала */
   height:80px; /* Высота блока подвала */
-  width: 439px;/*тут ширина подвала*/
+  width: 900px;/*тут ширина подвала*/
   background-color: #ffffff; /* Фон блока подвала */
   margin-bottom: 10px; /* Отступ снизу */
   border-radius: 5px; /* Закруглённые углы */
@@ -167,6 +175,11 @@ h1{ /* Заголовок сайта */
 }
 
 .mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}
+
+.mail2{ /* Адрес E-mail */
   float:left;
  margin:20px 0 0 60px;
 }
